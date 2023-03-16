@@ -1,11 +1,12 @@
-import { Button } from "@mui/material";
+import { Button, CssBaseline } from "@mui/material";
 import "./App.css";
+import EpBox from "./components/EpBox";
 
 function App() {
   return (
     <div className="App">
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Click Me!</Button>
+      <EpBox />
+      <CssBaseline />
     </div>
   );
 }
