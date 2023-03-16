@@ -1,10 +1,11 @@
-import { Box, Button } from "@mui/material";
+import { Box, Button, Paper } from "@mui/material";
 
 function EpBox() {
   return (
     <Box >
-      <Button variant="text">Text</Button>
-      <Button variant="contained">Click Me!</Button>
+      <Paper sx={{mt:2}}>
+      <Button variant="outlined">Hit Me!</Button>
+      </Paper>
     </Box>
   );
 }

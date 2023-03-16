@@ -9,9 +9,9 @@ import Typography from "@mui/material/Typography";
 const ProfileCard = () => {
   return (
     <Box>
-      <Card sx={{ maxWidth: 345, mt:2 }}>
+      <Card sx={{ maxWidth: 345, mt: 2 }}>
         <CardMedia
-          sx={{ height: 240, objectFit: "cover", bgcolor:'red' }}
+          sx={{ height: 240, objectFit: "cover", bgcolor: "red" }}
           image="https://futhead.cursecdn.com/static/img/21/players_alt/p134375751.png"
           title="green iguana"
         />
@@ -24,9 +24,8 @@ const ProfileCard = () => {
             species, ranging across all continents except Antarctica
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
+        <CardActions sx={{display:'flex', justifyContent:"center"}}>
+          <Button variant="contained">Click Me!</Button>
         </CardActions>
       </Card>
     </Box>
